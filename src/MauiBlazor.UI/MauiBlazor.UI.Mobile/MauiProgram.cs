@@ -1,6 +1,7 @@
 ﻿using MauiBlazor.UI.Core.Interfaces;
 using MauiBlazor.UI.Core.Services;
 using MauiBlazor.UI.Mobile.Services;
+using MudBlazor.Services;
 
 namespace MauiBlazor.UI.Mobile;
 
@@ -20,6 +21,7 @@ public static class MauiProgram
 #if DEBUG
         builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
+        builder.Services.AddMudServices();
         var httpClient = new HttpClient();
 
         builder.Services.AddScoped<IWeatherForecastClient>(_ => new WeatherForecastClient("https://localhost:7136", httpClient));
