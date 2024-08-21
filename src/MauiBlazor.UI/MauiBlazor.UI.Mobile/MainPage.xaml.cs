@@ -1,7 +1,7 @@
 ﻿
-/* Unmerged change from project 'MauiBlazor.UI.Mobile(net6.0-ios)'
+/* Unmerged change from project 'MeWe.UI.Mobile(net6.0-ios)'
 Before:
-namespace MauiBlazor.UI.Mobile
+namespace MeWe.UI.Mobile
 {
     public partial class MainPage : ContentPage
     {
@@ -10,7 +10,7 @@ namespace MauiBlazor.UI.Mobile
             InitializeComponent();
         }
 After:
-namespace MauiBlazor.UI.Mobile;
+namespace MeWe.UI.Mobile;
 
 public partial class MainPage : ContentPage
 {
@@ -19,9 +19,9 @@ public partial class MainPage : ContentPage
         InitializeComponent();
 */
 
-/* Unmerged change from project 'MauiBlazor.UI.Mobile(net6.0-maccatalyst)'
+/* Unmerged change from project 'MeWe.UI.Mobile(net6.0-maccatalyst)'
 Before:
-namespace MauiBlazor.UI.Mobile
+namespace MeWe.UI.Mobile
 {
     public partial class MainPage : ContentPage
     {
@@ -30,7 +30,7 @@ namespace MauiBlazor.UI.Mobile
             InitializeComponent();
         }
 After:
-namespace MauiBlazor.UI.Mobile;
+namespace MeWe.UI.Mobile;
 
 public partial class MainPage : ContentPage
 {
@@ -38,7 +38,7 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
 */
-namespace MauiBlazor.UI.Mobile;
+namespace MeWe.UI.Mobile;
 
 public partial class MainPage : ContentPage
 {

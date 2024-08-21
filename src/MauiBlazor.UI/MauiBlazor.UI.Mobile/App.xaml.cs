@@ -1,4 +1,4 @@
-﻿namespace MauiBlazor.UI.Mobile;
+﻿namespace MeWe.UI.Mobile;
 
 public partial class App : Application
 {

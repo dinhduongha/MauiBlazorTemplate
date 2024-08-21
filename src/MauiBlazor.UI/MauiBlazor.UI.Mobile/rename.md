@@ -1,0 +1,1 @@
+Replace MauiBlazor.UI.Mobile with MeWe.UI.Mobile

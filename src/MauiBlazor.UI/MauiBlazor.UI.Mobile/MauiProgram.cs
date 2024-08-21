@@ -1,9 +1,9 @@
 ﻿using MauiBlazor.UI.Core.Interfaces;
 using MauiBlazor.UI.Core.Services;
-using MauiBlazor.UI.Mobile.Services;
+using MeWe.UI.Mobile.Services;
 using MudBlazor.Services;
 
-namespace MauiBlazor.UI.Mobile;
+namespace MeWe.UI.Mobile;
 
 public static class MauiProgram
 {

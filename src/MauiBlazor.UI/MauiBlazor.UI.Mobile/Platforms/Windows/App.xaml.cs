@@ -3,7 +3,7 @@
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace MauiBlazor.UI.Mobile.WinUI;
+namespace MeWe.UI.Mobile.WinUI;
 
 /// <summary>
 /// Provides application-specific behavior to supplement the default Application class.

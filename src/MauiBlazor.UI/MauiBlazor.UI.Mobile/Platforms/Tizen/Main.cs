@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace MauiBlazor.UI.Mobile
+namespace MeWe.UI.Mobile
 {
     internal class Program : MauiApplication
     {

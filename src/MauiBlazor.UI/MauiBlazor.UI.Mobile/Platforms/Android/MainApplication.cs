@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace MauiBlazor.UI.Mobile;
+namespace MeWe.UI.Mobile;
 
 [Application]
 public class MainApplication : MauiApplication

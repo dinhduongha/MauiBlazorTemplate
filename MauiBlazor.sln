@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\MauiBlazor.WebApi\MauiBlazor.WebApi.csproj", "{CBC01440-3108-4720-ACEF-87FD499EE0A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBlazor.WebApi", "src\MauiBlazor.WebApi\MauiBlazor.WebApi.csproj", "{CBC01440-3108-4720-ACEF-87FD499EE0A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MauiBlazor.UI", "MauiBlazor.UI", "{C8A02A31-3D82-4294-AEE5-F4727411890D}"
 EndProject
@@ -10,27 +10,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBlazor.UI.Core", "src\M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBlazor.UI.Web", "src\MauiBlazor.UI\MauiBlazor.UI.Web\MauiBlazor.UI.Web.csproj", "{138814C8-62AD-4F24-BE38-1A4985F986E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBlazor.UI.Mobile", "src\MauiBlazor.UI\MauiBlazor.UI.Mobile\MauiBlazor.UI.Mobile.csproj", "{A4D3F6E7-A33B-4F6E-8878-A403E7632D76}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBlazor.Shared", "src\MauiBlazor.Shared\MauiBlazor.Shared.csproj", "{5062E69C-8651-4582-81BD-D26E3BCE2430}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C95AEFE-96FE-48B9-9471-80CE5338BABD}"
 	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
+		.github\ISSUE_TEMPLATE\---bug-report.md = .github\ISSUE_TEMPLATE\---bug-report.md
+		.github\ISSUE_TEMPLATE\--.md = .github\ISSUE_TEMPLATE\--.md
+		.github\ISSUE_TEMPLATE\--feature-request.md = .github\ISSUE_TEMPLATE\--feature-request.md
 		.editorconfig = .editorconfig
-		LICENSE.txt = LICENSE.txt
-		README.md = README.md
-		.github\FUNDING.yml = .github\FUNDING.yml
-		global.json = global.json
-		.github\workflows\build-webapi.yml = .github\workflows\build-webapi.yml
+		.gitignore = .gitignore
 		.github\workflows\build-blazor.yml = .github\workflows\build-blazor.yml
+		.github\workflows\build-maui.yml = .github\workflows\build-maui.yml
+		.github\workflows\build-webapi.yml = .github\workflows\build-webapi.yml
 		.github\workflows\deploy-blazor.yml = .github\workflows\deploy-blazor.yml
 		.github\workflows\deploy-webapi.yml = .github\workflows\deploy-webapi.yml
-		.github\workflows\build-maui.yml = .github\workflows\build-maui.yml
-		.github\ISSUE_TEMPLATE\--.md = .github\ISSUE_TEMPLATE\--.md
-		.github\ISSUE_TEMPLATE\---bug-report.md = .github\ISSUE_TEMPLATE\---bug-report.md
-		.github\ISSUE_TEMPLATE\--feature-request.md = .github\ISSUE_TEMPLATE\--feature-request.md
+		.github\FUNDING.yml = .github\FUNDING.yml
+		global.json = global.json
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeWe.UI.Mobile", "src\MauiBlazor.UI\MauiBlazor.UI.Mobile\MeWe.UI.Mobile.csproj", "{2EE65B39-4B67-497C-AE9E-453AF5614D47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,34 +42,34 @@ Global
 		{CBC01440-3108-4720-ACEF-87FD499EE0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBC01440-3108-4720-ACEF-87FD499EE0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBC01440-3108-4720-ACEF-87FD499EE0A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{138814C8-62AD-4F24-BE38-1A4985F986E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{138814C8-62AD-4F24-BE38-1A4985F986E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{138814C8-62AD-4F24-BE38-1A4985F986E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{138814C8-62AD-4F24-BE38-1A4985F986E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4D3F6E7-A33B-4F6E-8878-A403E7632D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4D3F6E7-A33B-4F6E-8878-A403E7632D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4D3F6E7-A33B-4F6E-8878-A403E7632D76}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{A4D3F6E7-A33B-4F6E-8878-A403E7632D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4D3F6E7-A33B-4F6E-8878-A403E7632D76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4D3F6E7-A33B-4F6E-8878-A403E7632D76}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{5062E69C-8651-4582-81BD-D26E3BCE2430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5062E69C-8651-4582-81BD-D26E3BCE2430}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5062E69C-8651-4582-81BD-D26E3BCE2430}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5062E69C-8651-4582-81BD-D26E3BCE2430}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02C19FF0-2690-4447-98E9-CC458E84F12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{02C19FF0-2690-4447-98E9-CC458E84F12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02C19FF0-2690-4447-98E9-CC458E84F12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02C19FF0-2690-4447-98E9-CC458E84F12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138814C8-62AD-4F24-BE38-1A4985F986E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138814C8-62AD-4F24-BE38-1A4985F986E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138814C8-62AD-4F24-BE38-1A4985F986E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138814C8-62AD-4F24-BE38-1A4985F986E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5062E69C-8651-4582-81BD-D26E3BCE2430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5062E69C-8651-4582-81BD-D26E3BCE2430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5062E69C-8651-4582-81BD-D26E3BCE2430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5062E69C-8651-4582-81BD-D26E3BCE2430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE65B39-4B67-497C-AE9E-453AF5614D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE65B39-4B67-497C-AE9E-453AF5614D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE65B39-4B67-497C-AE9E-453AF5614D47}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2EE65B39-4B67-497C-AE9E-453AF5614D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE65B39-4B67-497C-AE9E-453AF5614D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE65B39-4B67-497C-AE9E-453AF5614D47}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{02C19FF0-2690-4447-98E9-CC458E84F12F} = {C8A02A31-3D82-4294-AEE5-F4727411890D}
-		{A4D3F6E7-A33B-4F6E-8878-A403E7632D76} = {C8A02A31-3D82-4294-AEE5-F4727411890D}
 		{138814C8-62AD-4F24-BE38-1A4985F986E1} = {C8A02A31-3D82-4294-AEE5-F4727411890D}
+		{2EE65B39-4B67-497C-AE9E-453AF5614D47} = {C8A02A31-3D82-4294-AEE5-F4727411890D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
 	EndGlobalSection
 EndGlobal
